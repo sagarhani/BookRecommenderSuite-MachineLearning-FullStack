@@ -1,0 +1,62 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma';
+
+a {
+  width: 120px;
+  height: 30px;
+  padding: 5px 10px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  opacity: 0.95;
+  font-family: "Baloo Tamma", cursive;
+  background: royalblue;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 1;
+}
+
+.b1 {
+  margin: 50px 70%;
+  background: #303030;
+  border-radius: 2px;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.6);
+}
+.b1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 20px 10px -10px rgba(0, 0, 0, 0.4);
+}
+
+.b3 {
+  margin: -90px 85%;
+  background: #2c3e50;
+  border-radius: 2px;
+  border-left: 0px solid rgba(20, 40, 50, 0.8);
+  transition: border-left 0.4s ease-out, width 0.4s ease-out;
+}
+.b3:hover {
+  border-right: 20px solid rgba(20, 40, 50, 0.8);
+  width: 100px;
+}
+.b3:active {
+  border-right: 0px solid rgba(20, 40, 50, 0.8);
+  width: 120px;
+}
+
+.img1 {
+    width: 550px;
+    height: 430px;
+    margin-left: 10px;
+    
+}
+
+.img2 {
+    width: 500px;
+    height: 410px;
+    margin-left: 700px;
+    margin-top: -800px;
+}
