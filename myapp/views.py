@@ -7,8 +7,6 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response, redirect
 from myapp.models import book, reviews
 from random import randint
-import nltk
-from nltk.corpus import stopwords
 import os
 from django.conf import settings
 
